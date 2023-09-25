@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom,
+      #b9b9b9,
+      #a2a2a2,
+      #8c8c8c,
+      #777777,
+      #626262);
+  margin: 30px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.conteudo {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+}
+
+button {
+  transition: all 0.5s ease;
+  border-radius: 4px;
+  color: #0077ff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+}
+
+button:hover {
+  background-color: #0077ff;
+  color: #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
